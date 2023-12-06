@@ -1,1 +1,1 @@
-Theme: https://github.com/pages-themes/hacker
+Theme: [https://github.com/pages-themes/hacker]
