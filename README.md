@@ -1,8 +1,28 @@
+## Short Introduction
+My name is Kevin, and this website was created for my final project in CS-499. I'm currently in my last year for my bachelor’s degree and computer science and it has come a long way since starting. In this small webpage you will see three programs I created and improved on.  
+# Programs
 ## [Code Review](https://mega.nz/file/ch5VgD4J#ebPcmmSDuEUJyekUyWWkRYR580-JiIzpWIaV288Aye4)
 Note that the video isn't embeded due to file size.  
 Goes over the projects before being changed.  
+## Projects with and without changes
 [https://github.com/UnknownSchoolPerson/CS-499-Software-design-engineering](https://github.com/UnknownSchoolPerson/CS-499-Software-design-engineering)  
 [https://github.com/UnknownSchoolPerson/CS-499-Algorithms-and-data-structures](https://github.com/UnknownSchoolPerson/CS-499-Algorithms-and-data-structures)  
 [https://github.com/UnknownSchoolPerson/CS-499-Database](https://github.com/UnknownSchoolPerson/CS-499-Database)  
 Note on each project the master branch was before any changes. Branch CS499 on each is the updated ones.  
+## Enhancement One: Software Design and Engineering  
+[https://github.com/UnknownSchoolPerson/CS-499-Software-design-engineering](https://github.com/UnknownSchoolPerson/CS-499-Software-design-engineering)  
+With Computational Graphics and Visualization CS330, I had to take a picture of an object in real life and recreate it. Now I am awful at design, so I did not create an amazing-looking 3D scene, but I created a whole object editor to create the objects in real time. I was able to change the location, transform the shape, spawn a new one, get the current matrix of it, and also see what object is currently selected. Creating an object editor and updating objects in real time was not required or expected. We were expected to create static code that placed down the objects to create our scenes. Creating a whole editor has done more than required for the project and I finished this on 6/17/2023.  
+
+Before any enchantments, this project shows how I went above and beyond for a project and created a whole editing tool to help me learn more about 3D rendering, C++, and creating 3D scenes. The whole object editing was just an idea I had no idea would work until I took the step and tried it. The artifact not only improved with new features, but while implementing these new features I found a few bugs and also improved some of the logic behind the scenes that would make adding more features in the future easier. I have finished implementing my enhancements of using Windows open dialog to load new textures, allowing objects to be deleted, and reworking the behind-the-scenes to allow textures to be deleted when used. Doing so also reviewed how keeping track of the objects was wrong and was impossible to delete, so I had to change the object list to be pointers and update all code to know the list is a bunch of pointers. How I noticed when looking up the compile error https://gamedev.stackexchange.com/questions/164069/error-saying-attempting-to-reference-a-deleted-function-while-using-a-vector-lis.
+
+### Course outcomes met  
+(Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices to implement computer solutions that deliver value and accomplish industry-specific goals)  
+I used an OS feature to help implement a new feature to the artifact, showing how I can use OS-specific features along with industry-standard documentation and libraries.
+(Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices)  
+When creating my texture cleanup, I used a map to quickly keep track of how many references a texture has. The map requires the knowledge of knowing of how O notation works and to know when to implement it at logical points. Finally, to implement a texture cleanup system, some speed had to be given up determining when to clean up, but this trade-off is well worth it as it can help clean up countless amounts of unused memory.
+
+### Reflection
+When I was enhancing this artifact, I did not expect to change so much, to be honest. My original plan of creating a second vector list and throwing deleted objects was never even tried when I had an idea when I woke up this morning and started working on this. My idea was to have two saved textures, a render texture, and an original texture. In the program what happens is when a new texture is created an ID is also attached to it, when I want to give an object a texture I give it the ID, so saving two textures is only as big as an integer. When changing the texture to see the selected texture the render texture is touched and when that is no longer selected, I just go back to the original texture. This made deleting textures easier as I am creating a new function bindTexture that would change the original texture of an object, update the references, and delete unused textures. The only real challenge I faced (besides rewriting a few systems) was my original vector list was a copy of anything it put in, not the original causing it to use 2n memory for each object. This was a problem because it took me the most time to figure all this out. After all, I was getting a C2280 error. Otherwise, the only other thing I learned was how to implement the Windows file dialog box as I never did that before besides in Windows Form Maker in Visual Studio. I’m thankful for Microsoft well well-documented use of the dialogs in C++.
+
+
 Theme: [https://github.com/pages-themes/hacker](https://github.com/pages-themes/hacker)
