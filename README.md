@@ -76,4 +76,4 @@ Updating the Database went as easy as I expected (Thanks to my Database class). 
 ## Credits
   
 Theme: [https://github.com/pages-themes/hacker](https://github.com/pages-themes/hacker)  
-Github for hosting this and [providing a formating help page.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links)https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links
+Github for hosting this and [providing a formating help page.](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links)
