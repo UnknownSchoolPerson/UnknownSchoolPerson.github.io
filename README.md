@@ -1,5 +1,10 @@
-## Short Introduction
+# Short Introduction
 My name is Kevin, and this website was created for my final project in CS-499. I'm currently in my last year for my bachelor’s degree and computer science and it has come a long way since starting. In this small webpage you will see three programs I created and improved on.  
+# Self-Assessment
+I started programing many years ago (2014), while taking high school computer programming classes. I didn’t start out knowing much, not even if I would like it or want to get a degree with some type of programming, but after taking the class for two years and quickly growing and being one of the top students in the class I ended up liking it. Getting my associate degree also quickly made me realize how easy programming came to me and also how much faster I was able to get stuff than other students. A lot my assignments I liked to go above and beyond while still mange to be the first few to finish most assignments. I wouldn’t say I’m the best or know the most, but I do love and enjoy programming and I also done many programs outside of class for mostly just learning more and having fun with it.  
+  
+My CS499 class really helped me realize how much I grew and how much different I would do some things now. Looking back, I was able to see how I was able to improve old code, neat tricks I did, how much documentation I used and made sure to note it when used to refer back to, making sure my comments are clear and simple, my attention to speed in programs, the diverse programming languages I used, and finally how I always improved with every program. The growth I have done amazes me as I didn’t think I would be able to come so far and do so much. I had a lot of projects I could choice from, but below are the three I decided to use.
+
 # Programs
 ## [Code Review](https://mega.nz/file/ch5VgD4J#ebPcmmSDuEUJyekUyWWkRYR580-JiIzpWIaV288Aye4)
 Note that the video isn't embeded due to file size.  
